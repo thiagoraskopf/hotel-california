@@ -39,6 +39,8 @@ import javax.xml.bind.annotation.XmlTransient;
     , @NamedQuery(name = "Quarto.findByQuaFrigobar", query = "SELECT q FROM Quarto q WHERE q.quaFrigobar = :quaFrigobar")
     , @NamedQuery(name = "Quarto.findByQuaTv", query = "SELECT q FROM Quarto q WHERE q.quaTv = :quaTv")
     , @NamedQuery(name = "Quarto.findByQuaAc", query = "SELECT q FROM Quarto q WHERE q.quaAc = :quaAc")})
+//    , @NamedQuery(name = "Quarto.insert", query = "INSERT INTO APP.QUARTO (QUA_NUMERO, QUA_TIPO, QUA_VALORDIARIA, QUA_TIPOCAMA, QUA_STATUS, QUA_BANHEIRA, QUA_FRIGOBAR, QUA_TV, QUA_AC) VALUES (102, 'Premium', 300.0, 'Casal', 'Liberado', 'S', 'S', 'S', 'S')")})
+
 public class Quarto implements Serializable {
 
     private static final long serialVersionUID = 1L;
